@@ -1,0 +1,49 @@
+/* Colors */
+/* Spacing */
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #171717;
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#logo img {
+  max-width: 100%;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 85%;
+  padding: 0.5em;
+  margin: 4em auto;
+}
+
+main h1 {
+  font-size: 1.3em;
+}
+/*# sourceMappingURL=style.css.map */

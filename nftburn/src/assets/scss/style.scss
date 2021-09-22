@@ -1,0 +1,44 @@
+/* Colors */
+$black: #171717;
+
+/* Spacing */
+$mypadding: .5em;
+$mymargin: 1em;
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    padding: $mypadding;
+    margin: 4em auto;
+    h1 {
+        font-size: 1.3em;
+    }
+}
+
+  
