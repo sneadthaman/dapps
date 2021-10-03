@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5 text-center" v-if="show">
       <h2>Stay Up To Date</h2>
-      <form class="p-3" netlify>
+      <form name="email" method="POST" class="p-3" netlify>
         <div class="form-group">
           <label for="email">Email Address</label>
           <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required v-model="email">
